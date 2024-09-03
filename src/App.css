@@ -1,0 +1,22 @@
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+    "h h"
+    "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 1px;
+  width: 1200px;
+  margin: 0 auto;
+  
+}
+
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: rgb(109, 3, 3);
+  
+}
+.fon{
+  background-image:url('https://bogatyr.club/uploads/posts/2023-03/1679550681_bogatyr-club-p-krasnii-tsvet-na-serom-fone-oboi-1.jpg');
+}

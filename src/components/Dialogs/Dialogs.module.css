@@ -1,0 +1,23 @@
+.dialogsitem{
+    display: grid;
+    grid-template-areas:
+    "d m";
+    grid-template-columns: 10fr 10fr;
+    
+}
+
+.dialo{
+    grid-area: d;
+    padding: 10px;
+
+}
+
+.dialog.activ{
+    color:gold;
+}
+
+.messages{
+    grid-area: m;
+    padding: 10 px;
+}
+
