@@ -1,22 +1,15 @@
-import store from './Redux/redux-store';
-import reportWebVitals from './reportWebVitals';
+
+import reportWebVitals from './reportWebVitals.js';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-import { Provider } from "react-redux";
+import SNJSApp from './App.tsx';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root') );
 
   root.render(
-    <BrowserRouter>
-      <React.StrictMode>
-        <Provider store={store}>
-          <App />
-        </Provider>
-      </React.StrictMode>
-    </BrowserRouter>
+    <SNJSApp/>
+    
   );
 
 
