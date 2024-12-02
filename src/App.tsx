@@ -1,7 +1,8 @@
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar/Navbar.tsx';
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { initializeApp } from './Redux/app-reducer.ts';
@@ -58,22 +59,6 @@ const menuItems = [
 
 
 const App: React.FC<MapPropsType & DispatchPropsType> = (props) => {
-  //class App extends React.Component<MapPropsType & DispatchPropsType> {
-  /*catchAllUnhandleErrors=(e:PromiseRejectionEvent)=>{
-    alert("Some error occured");
-  }
-  componentDidMount() {
-    this.props.initializeApp();
-    window.addEventListener("unhandledrejection", this.catchAllUnhandleErrors);
-  }
-  componentWillUnmount(){
-    window.removeEventListener("unhandledrejection", this.catchAllUnhandleErrors);
-  }
-  render() {
-    if (!this.props.initialized) {
-      return <Preloader />
-    }*/
-
 
   const {
     token: { colorBgContainer, borderRadiusLG },
