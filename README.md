@@ -46,7 +46,11 @@
 * Webpack,
 * WebSocket
 
-
-
-`npm run start` - запуск проекта  
-`npm run build` - запуск сборки проекта  
+## Функциональная
+Вы можете протестировать приложение социальной сети, перейдя по следующей ссылке: [SocialNetwork Demo](https://alexeypiskunovich.github.io/SocialNetwork).
+Испытайте все возможности и взаимодействуйте с различными функциями!
+<img src="https://github.com/alexeypiskunovich/SocialNetwork/blob/main/Photo/2024-12-02_22-26-19.png" width="800">
+<img src="https://github.com/alexeypiskunovich/SocialNetwork/blob/main/Photo/2024-12-02_22-25-30.png" width="800">
+<img src="https://github.com/alexeypiskunovich/SocialNetwork/blob/main/Photo/2024-12-02_22-24-30.png" width="800">
+<img src="https://github.com/alexeypiskunovich/SocialNetwork/blob/main/Photo/2024-12-02_22-23-24.png" width="800">
+<img src="https://github.com/alexeypiskunovich/SocialNetwork/blob/main/Photo/2024-12-02_22-18-03.png" width="800">
